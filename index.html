@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';" />
+  <title>Crônicas</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' shape-rendering='crispEdges'%3E%3Cpath d='M4 2h24v18l-3 5-4 4-5 3-5-3-4-4-3-5V2z' fill='%231b120c'/%3E%3Cpath d='M5 3h22v16l-3 5-4 4-4 2.5-4-2.5-4-4-3-5V3z' fill='%237a4b0b'/%3E%3Cpath d='M6 4h20v15l-3 4.5-4 3.5-3 2-3-2-4-3.5-3-4.5V4z' fill='%23e5a93c'/%3E%3Crect x='6' y='4' width='20' height='2' fill='%23ffd166'/%3E%3Crect x='8' y='6' width='16' height='4' fill='%232b182e'/%3E%3Crect x='8' y='11' width='16' height='3' fill='%237a284b'/%3E%3Crect x='9' y='15' width='14' height='3' fill='%23d96b43'/%3E%3Crect x='10' y='18' width='12' height='3' fill='%23ffd166'/%3E%3Crect x='12' y='1' width='2' height='2' fill='%23ffd166'/%3E%3Crect x='15' y='0' width='2' height='3' fill='%23fff3b0'/%3E%3Crect x='18' y='1' width='2' height='2' fill='%23ffd166'/%3E%3Crect x='15' y='2' width='2' height='1' fill='%23c43b3b'/%3E%3Crect x='12' y='9' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='14' y='11' width='2' height='2' fill='%23e2e8f0'/%3E%3Crect x='16' y='13' width='2' height='2' fill='%23cbd5e1'/%3E%3Crect x='18' y='15' width='2' height='2' fill='%2394a3b8'/%3E%3Crect x='11' y='17' width='2' height='2' fill='%23fff3b0'/%3E%3Crect x='13' y='15' width='2' height='2' fill='%23ffd166'/%3E%3Crect x='15' y='12' width='2' height='2' fill='%23ffffff'/%3E%3Crect x='18' y='9' width='3' height='2' fill='%23ffd166'/%3E%3Crect x='20' y='7' width='3' height='3' fill='%23ffe082'/%3E%3Crect x='21' y='6' width='2' height='2' fill='%23ffffff'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./estilos.min.css" />
+  <style>
+    /* Regra crítica de blindagem (espelhada em variaveis_tema.css): sem texto fantasma em botões claros */
+    .btn-avancar-ano,
+    .btn-hud-avancar-ano,
+    .btn-aba-hud.ativa,
+    .btn-alvo-moldura.ativo,
+    #btn-flutuante-modo-deus {
+      text-shadow: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="app-jogo"></div>
+  
+  <script type="module" src="./app.min.js"></script>
+</body>
+</html>
